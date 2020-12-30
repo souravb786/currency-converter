@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.app{
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);
+}
+h1
+{
+    text-decoration: none;
+    font-weight: 10;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.Inner__app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input__field{
+    text-decoration: none;
+    margin:2rem;
+}
+.from__section{
+    margin: 5rem;
+}
+.to__section{
+    margin: 5rem;
+}
+
+@media (max-width:662px)
+{
+    h1{
+        font-weight: 10;
+        font-size: 3rem;
+    }
+    .to__section{
+        margin: 3rem;
+    }
+    .from__section{
+        margin: 3rem;
+    }
+}
